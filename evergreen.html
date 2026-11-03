@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Evergreen — Veranda</title>
+<meta name="description" content="Evergreen: Golf resorts, parks & forest retreats curated by Veranda.">
+<meta name="theme-color" content="#1f2b5e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,400;125,500&family=Fraunces:opsz,wght,SOFT,WONK@9..144,300,0,0&family=Google+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>html.is-loading #stage{visibility:hidden}</style>
+<script defer src="assets/vendor/gsap.min.js"></script>
+<script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+<script defer src="assets/vendor/SplitText.min.js"></script>
+<script defer src="assets/vendor/CustomEase.min.js"></script>
+<script defer src="assets/vendor/lenis.min.js"></script>
+<script defer src="assets/js/app.js"></script>
+</head>
+<body>
+<div id="stage">
+<main class="page page--category" data-page="green" data-theme="dark" style="--page-bg:#2f5640">
+<div class="page__scroll"><div class="page__content">
+<section class="cat-hero" data-ui="dark">
+  <div class="cat-hero__sticky">
+    <div class="hero__visual" data-hero-visual><img src="assets/img/green-cover.jpg" alt="Aerial view of a lush golf course" fetchpriority="high"></div>
+    <div class="marquee" data-marquee data-intro="chars"><div class="marquee__track"><span class="marquee__item">Evergreen</span></div></div>
+    <div class="hero__bottom">
+      <h1 class="hero__title" data-intro="lines">Golf resorts, private parks and forest retreats<br>where every view is a green one</h1>
+      <span class="tag" data-intro="fade">Starting from 100,000€</span>
+    </div>
+    <span class="hero__meta">(Scroll)</span>
+  </div>
+</section>
+
+<section class="section intro" data-ui="light">
+  <div class="vline"></div>
+  <h2 class="intro__title serif" data-reveal="lines">Room To Breathe<br>In Every<br>Season</h2>
+  <p class="intro__text" data-reveal="fade">Residences set within landscaped estates, mature woodland and championship fairways, designed for clean air, quiet mornings and long weekends.</p>
+</section>
+
+<section class="section gallery" data-ui="light" data-gallery>
+  <div class="gallery__viewport">
+    <div class="gallery__track">
+        <figure class="gallery__item"><img src="assets/img/green-1.jpg" alt="Golf course with palm trees reflected in a pond" loading="lazy" draggable="false"></figure>
+        <figure class="gallery__item"><img src="assets/img/green-2.jpg" alt="Aerial view of a pool hidden in a forest" loading="lazy" draggable="false"></figure>
+        <figure class="gallery__item"><img src="assets/img/green-3.jpg" alt="White villa on a wooded hill" loading="lazy" draggable="false"></figure>
+        <figure class="gallery__item"><img src="assets/img/green-4.jpg" alt="Lakeside resort below green mountains" loading="lazy" draggable="false"></figure>
+        <figure class="gallery__item"><img src="assets/img/green-5.jpg" alt="Aerial view of fairways and bunkers" loading="lazy" draggable="false"></figure>
+    </div>
+  </div>
+  <div class="gallery__nav">
+    <button class="round-btn" type="button" data-prev aria-label="Previous images"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 8H2M7 3L2 8l5 5"/></svg></button>
+    <button class="round-btn" type="button" data-next aria-label="Next images"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></button>
+  </div>
+</section>
+
+<section class="section big-marquee" data-ui="light" aria-hidden="true">
+  <div class="marquee" data-marquee data-dir="1"><div class="marquee__track"><span class="marquee__item">Evergreen</span></div></div>
+</section>
+
+<section class="section quote" data-ui="light">
+  <figure class="quote__img" data-reveal="clip"><img src="assets/img/green-1.jpg" alt="Golf course with palm trees" loading="lazy"></figure>
+  <blockquote class="quote__text serif" data-reveal="lines">“The most valuable amenity of the next decade is not a gym or a lobby. It is a horizon of trees.”</blockquote>
+  <p class="credit" data-reveal="fade">Veranda Research<span>/ Wellness Living Note / 2026</span></p>
+</section>
+
+<section class="bleed" data-ui="dark">
+  <div class="bleed__inner" data-reveal="clip"><img src="assets/img/green-aerial.jpg" alt="Aerial view of villas among trees by the beach" loading="lazy" data-parallax="8"></div>
+</section>
+
+<section class="section rows" data-ui="light">
+    <article class="row">
+      <figure class="row__media" data-reveal="clip"><img src="assets/img/green-row-1.jpg" alt="Viewpoint overlooking a coastal town" loading="lazy" data-parallax="6"></figure>
+      <div class="row__copy">
+        <h3 class="row__title" data-reveal="lines">Wellness<br>By Design</h3>
+        <p class="row__text" data-reveal="fade">Walking trails, open water and clean air turn everyday routines into restorative ones.</p>
+      </div>
+    </article>
+    <article class="row row--alt">
+      <figure class="row__media" data-reveal="clip"><img src="assets/img/green-row-2.jpg" alt="Woman sitting by a vine-covered building near the sea" loading="lazy" data-parallax="6"></figure>
+      <div class="row__copy">
+        <h3 class="row__title" data-reveal="lines">Resort<br>Living</h3>
+        <p class="row__text" data-reveal="fade">Clubhouses, spas and concierge services are run for you, so arriving always feels like a holiday.</p>
+      </div>
+    </article>
+    <article class="row">
+      <figure class="row__media" data-reveal="clip"><img src="assets/img/green-row-3.jpg" alt="Terracotta terrace with a small pool" loading="lazy" data-parallax="6"></figure>
+      <div class="row__copy">
+        <h3 class="row__title" data-reveal="lines">Protected<br>Views</h3>
+        <p class="row__text" data-reveal="fade">Estates bordered by parkland and fairways keep the outlook green, open and permanently uninterrupted.</p>
+      </div>
+    </article>
+</section>
+
+<section class="section statement" data-ui="light">
+  <p class="statement__text" data-reveal="lines"><span class="indent"></span>“Buyers are trading square metres for square kilometres of green. Homes that open onto nature are no longer a lifestyle choice, they are the new definition of prime.”</p>
+  <p class="credit" data-reveal="fade">Veranda Research<span>/ Wellness Living Note / 2026</span></p>
+</section>
+
+<section class="bleed" data-ui="dark">
+  <div class="bleed__inner"><img src="assets/img/green-4.jpg" alt="Lakeside resort below green mountains" loading="lazy" data-parallax="10"></div>
+</section>
+
+<section class="cta" data-ui="dark">
+  <div class="vline"></div>
+  <button class="cta__scroll" type="button" data-scroll-next>Scroll</button>
+  <h2 class="cta__title serif" data-reveal="lines">Find Your Place<br>In The Green</h2>
+  <a class="cta__link" href="contact.html" data-reveal="fade">Speak With Us <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></a>
+</section>
+
+<a class="next" href="urban-living.html" data-ui="dark">
+  <div class="next__media"><img src="assets/img/urban-cover.jpg" alt="" loading="lazy" data-parallax="8"></div>
+  <div class="next__copy">
+    <span class="pill">Next</span>
+    <h2 class="next__title" data-reveal="lines">Urban Living</h2>
+    <p class="next__desc">City centre &amp; old town living</p>
+  </div>
+</a>
+</div></div>
+</main>
+</div>
+<noscript><style>html.is-loading #stage{visibility:visible}</style></noscript>
+</body>
+</html>
